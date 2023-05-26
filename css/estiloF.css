@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.Superior{
+    background-color:#4c66a4;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 10vh;
+
+}
+.cuerpo{
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    width: 100vw;
+    height: 90vh;
+}
+.derecha{
+    background-color: white;
+    width: 60vw;
+    height: 90vh;
+}
+.izquierda{
+    background-color: pink;
+    width: 40vw;
+    height: 90vh;   
+}
+.nombre{
+    text-align: start;
+    font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+    background-color:#4c66a4;
+    width: 60vw;
+    height: 10vh;
+    font-size: 30px;
+    font-weight: 900; /*PESO DE LA LETRA*/
+    color: white;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.inicioS{
+    margin-top: 3px;
+    display: grid;
+    grid-template-columns: 20vw 20vw 3vw;
+    grid-template-rows: 5vh 5vh;
+}
+#recordar{
+    text-align: center;
+    color: white;
+}
+#olvidar{
+    text-align: center;
+    color: white;
+}
+#usuario{
+    text-align: center;
+    color: white;
+}
+#contraseña{
+    text-align: center;
+    color: white;
+}
+#inicio{
+    display: flex;
+    height: 8vh;
+    color: white;
+    margin-right: 5px;
+    align-items: end;
+    justify-content: center;
+}
+#texto{
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+    height: 15vh;
+    align-self: self-end;
+    font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 25px;
+    font-weight:100; /*PESO DE LA LETRA*/
+}
+#imagen{
+    display: flex;
+    width: 60vw;
+    height: 75vh;
+    align-items: center;
+    justify-content: center;
+}
