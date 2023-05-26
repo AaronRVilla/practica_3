@@ -14,7 +14,6 @@
 .cuerpo{
     display: flex;
     flex-direction: row;
-    background-color: green;
     width: 100vw;
     height: 90vh;
 }
@@ -24,7 +23,6 @@
     height: 90vh;
 }
 .izquierda{
-    background-color: pink;
     width: 40vw;
     height: 90vh;   
 }
@@ -43,7 +41,7 @@
 .inicioS{
     margin-top: 3px;
     display: grid;
-    grid-template-columns: 20vw 20vw 3vw;
+    grid-template-columns: 15vw 15vw 10vw;
     grid-template-rows: 5vh 5vh;
 }
 #recordar{
@@ -58,9 +56,23 @@
     text-align: center;
     color: white;
 }
+#usuario input[type="text"]{
+    width: 50%;
+    height: 3vh;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
 #contraseña{
     text-align: center;
     color: white;
+}
+#contraseña input[type="password"]{
+    width: 50%;
+    height: 3vh;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left: 10px;
 }
 #inicio{
     display: flex;
@@ -70,20 +82,137 @@
     align-items: end;
     justify-content: center;
 }
+#inicio input[type="submit"]{
+    width:100px;
+    height:30px;
+    text-align:center;
+    font-size:12px;
+    margin-bottom: 10px;
+    font-family: 'Freight Sans Bold';
+    font-weight: bold;
+    background-color:blue;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+ 
+}
 #texto{
     display: flex;
-    flex-direction: row;
     width: 60vw;
     height: 15vh;
-    align-self: self-end;
     font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
     font-size: 25px;
     font-weight:100; /*PESO DE LA LETRA*/
+    margin-left: 5px;
+    justify-content: center;
+    align-items: end;
 }
 #imagen{
     display: flex;
     width: 60vw;
     height: 75vh;
     align-items: center;
+    justify-content: center;
+}
+#registrarte{
+    height: 8vh;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 37px;
+    font-weight: bold;
+}
+#mensaje{
+    height: 8vh;
+    font-size: 30px;
+    font-weight: 100;
+}
+#nom{
+    display: flex;
+    height: 8vh;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+}
+#nom input[type="text"]{
+    width: 50%;
+    height: 5vh;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+#ape{
+    display: flex;
+    height: 8vh;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+}
+#ape input[type="text"]{
+    width: 50%;
+    height: 5vh;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+#correo{
+    display: flex;
+    height: 8vh;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+}
+#correo input[type="text"]{
+    width: 50%;
+    height: 5vh;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+#pass{
+    display: flex;
+    height: 8vh;
+    font-size: 15px;
+    justify-content: center;
+}
+#pass input[type="password"]{
+    width: 50%;
+    height: 5vh;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+#sexo{
+    display: flex;
+    height: 8vh;
+    font-size: 15px;
+    justify-content: center;
+}
+#cump{
+    display: flex;
+    height: 8vh;
+    font-size: 15px;
+    justify-content: center;
+}
+#pregunta{
+    display: flex;
+    height: 8vh;
+    font-size: 15px;
+    justify-content: center;
+}
+#boton{
+    display: flex;
+    height: 8vh;
+    font-size: 15px;
+    justify-content: center;
+}
+#crear{
+    display: flex;
+    height: 8vh;
+    font-size: 15px;
     justify-content: center;
 }
