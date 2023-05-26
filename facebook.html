@@ -11,9 +11,9 @@
     <div class="Superior">
         <div class="nombre">Facebook</div>
         <div class="inicioS">
-            <div id="recordar">Recordar usuario</div>
-            <div id="olvidar">Olvidé mi contraseña</div>
-            <div id="inicio"><input type="submit" name="login" value="Iniciar Sesión"></div>
+            <div id="recordar"><input type="radio">Remember me</div>
+            <div id="olvidar">Forgot your password?</div>
+            <div id="inicio"><input type="submit" name="login" value="Login"></div>
             <div id="usuario"><input type="text" name="txt"></div>
             <div id="contraseña"><input type="password" name="txtcontra"></div>
 
@@ -21,22 +21,27 @@
     </div>
     <div class="cuerpo">
         <div class="derecha">
-            <div id="texto">Facebook te ayuda a conectar y compartir las personas de tu vida</div>
+            <div id="texto">Facebook helps you connect and share with the people in your life.</div>
             <div id="imagen"> <img src="css/globo.jpeg" alt="Sin imagen"
                 width="800vw" height="300vh"> </div>
         </div>
         <div class="izquierda">
-            <div id="registrarte">Registrarse</div>
-            <div id="mensaje">Es gratis y cualquiera puede hacerlo</div>
-            <div id="nom">Nombre(s) <input type="text" name="txtname"></div>
-            <div id="ape">Apellidos<input type="text" name="txtapellido"></div>
-            <div id="correo">Correo electronico<input type="text" name="txtcorreo"></div>
-            <div id="pass">Contraseña Nueva<input type="password" name="txtpassword"></div>
-            <div id="sexo">I am: </div>
-            <div id="cump">Cumpleaños:</div>
-            <div id="pregunta">¿Por qué es necesario mi cumpleaños?</div>
-            <div id="boton">10</div>
-            <div id="crear">Crea una página para una celebridad,banda o negocio</div>
+            <div id="registrarte">Sign Up</div>
+            <div id="mensaje">It's free and anyone can join</div>
+            <div id="nom">First name <input type="text" name="txtname"></div>
+            <div id="ape">Last name<input type="text" name="txtapellido"></div>
+            <div id="correo">Your email<input type="text" name="txtcorreo"></div>
+            <div id="pass">New password<input type="password" name="txtpassword"></div>
+            <div id="sexo">I am:
+                <select><option>Select sex</option></select>
+            </div>
+            <div id="cump">Birthday:
+                <select><option>Month</option></select>
+                <select><option>Day</option></select>
+                <select><option>Year</option></select></div>
+            <div id="pregunta">Why do I need to provide this?</div>
+            <div id="boton"><input type="submit" name="signup" value="Sign Up"></div>
+            <div id="crear">Create a page for a celebrity, band or bussines</div>
         </div>
     </div>
 </body>

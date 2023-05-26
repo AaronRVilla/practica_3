@@ -24,31 +24,40 @@
 }
 .izquierda{
     width: 40vw;
-    height: 90vh;   
+    height: 90vh;
 }
 .nombre{
+    display: flex;
+    justify-content: space-between;
     text-align: start;
     font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
     background-color:#4c66a4;
-    width: 60vw;
+    width: 56vw;
     height: 10vh;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 900; /*PESO DE LA LETRA*/
     color: white;
-    margin-top: 15px;
+    margin-top: 3px;
     margin-left: 50px;
 }
 .inicioS{
     margin-top: 3px;
     display: grid;
-    grid-template-columns: 15vw 15vw 10vw;
-    grid-template-rows: 5vh 5vh;
+    grid-template-columns: 15vw 15vw 15vw;
+    grid-template-rows: 3vh 3vh;
 }
 #recordar{
+    display: flex;
+    justify-content: end;
+    font-size: 12px;
     text-align: center;
     color: white;
 }
 #olvidar{
+    display: flex;
+    justify-content: end;
+    font-size: 12px;
+    text-decoration: underline;
     text-align: center;
     color: white;
 }
@@ -57,22 +66,22 @@
     color: white;
 }
 #usuario input[type="text"]{
-    width: 50%;
-    height: 3vh;
+    width: 85%;
+    height: 4vh;
     border-radius: 5px;
     padding-left: 10px;
-    margin-left: 10px;
+    margin-left: 35px;
 }
 #contraseña{
     text-align: center;
     color: white;
 }
 #contraseña input[type="password"]{
-    width: 50%;
-    height: 3vh;
+    width: 85%;
+    height: 4vh;
     border-radius: 5px;
     padding-left: 10px;
-    margin-left: 10px;
+    margin-left: 35px;
 }
 #inicio{
     display: flex;
@@ -91,14 +100,10 @@
     font-family: 'Freight Sans Bold';
     font-weight: bold;
     background-color:blue;
-    border-color: #3b6e22 #3b6e22 #2c5115;
     border: 1px solid;
     border-radius: 5px;
     color: #fff;
-    cursor: pointer;
-    display: inline-block;
     position: relative;
-    text-shadow: 0 1px 2px rgba(0,0,0,.5);
  
 }
 #texto{
@@ -120,15 +125,17 @@
     justify-content: center;
 }
 #registrarte{
-    height: 8vh;
+    display: flex;
+    align-items: end;
+    height: 12vh;
     text-align: left;
     margin-top: 10px;
-    font-size: 37px;
+    font-size: 30px;
     font-weight: bold;
 }
 #mensaje{
     height: 8vh;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 100;
 }
 #nom{
@@ -178,6 +185,7 @@
     height: 8vh;
     font-size: 15px;
     justify-content: center;
+    align-items: center;
 }
 #pass input[type="password"]{
     width: 50%;
@@ -191,18 +199,32 @@
     height: 8vh;
     font-size: 15px;
     justify-content: center;
+    align-items: center;
+}
+#sexo select{
+    width: 80px;
+    height: 30px;
+    margin-left: 3px;
 }
 #cump{
     display: flex;
     height: 8vh;
     font-size: 15px;
     justify-content: center;
+    align-items: center;
+}
+#cump select{
+    width: 80px;
+    height: 30px;
+    margin: 3px;
 }
 #pregunta{
     display: flex;
-    height: 8vh;
-    font-size: 15px;
+    height: 5vh;
+    font-size: 12px;
     justify-content: center;
+    align-items: center;
+    color: gray;
 }
 #boton{
     display: flex;
@@ -210,9 +232,26 @@
     font-size: 15px;
     justify-content: center;
 }
+#boton input[type="submit"]{
+    width:110px;
+    height:35px;
+    text-align:center;
+    font-size:15px;
+    margin-bottom: 10px;
+    font-family: 'Arial';
+    font-weight: bold;
+    background-color:green;
+    border-color: black;
+    border: 3px solid;
+    color: #fff;
+    position: relative;
+ 
+}
 #crear{
     display: flex;
-    height: 8vh;
-    font-size: 15px;
+    height: 5vh;
+    font-size: 18px;
     justify-content: center;
+    align-items: end;
+    font-weight: bold;
 }
