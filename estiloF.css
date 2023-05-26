@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.Superior{
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    width: 100vw;
+    height: 10vh;
+}
+.cuerpo{
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    width: 100vw;
+    height: 90vh;
+}
+.derecha{
+    background-color: aqua;
+    width: 60vw;
+    height: 90vh;
+}
+.izquierda{
+    background-color: pink;
+    width: 40vw;
+    height: 90vh;   
+}
+.nombre{
+    background-color:#4c66a4;
+    width: 60vw;
+    height: 10vh;
+}
+.inicioS{
+    background-color: violet;
+    width: 40vw;
+    height: 10vh;
+}
